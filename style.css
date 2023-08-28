@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding-right: 10%;
+    height: 40px;
+    background-color: rgb(33, 212, 203);
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-style: italic;
+    background-color: beige;
+    height: 300px;
+}
+.container2{
+    display: flex;
+}
+.text{
+    color: hotpink;
+}
+.shoe1 img{
+    height: 400px;
+    width: 420px;
+}
+.shoe2 img{
+    height: 400px;
+    width: 420px;
+}
+.shoe3 img{
+    height: 400px;
+    width: 407px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review p{
+    font-size: 50px;
+    color: hotpink;
+}
+.container3{
+    display: flex;
+}
+.customers{
+    display: flex;
+    justify-content: space-between;
+    background-color: hotpink;
+    border: 2px solid rgb(90, 196, 220);
+}
+.customers p{
+    text-align: center;
+    padding: 15px;
+}
+.footer p{
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 50px;
+}
+#faces{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
